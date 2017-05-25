@@ -1,0 +1,188 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+@media screen and (max-width: 480px) {
+  .bg {
+    background: #648cff !important;
+    background-image: none !important;
+    color: white;
+    padding-bottom: 10%;
+  }
+  .bg img{
+    display: none;
+  }
+    .main-nav {
+      padding-left: 50%;
+    }
+  .main-nav li a {
+     display: block;
+     padding-left:0 !important;
+  }
+
+  .screen-shots .col-md-6 > .img-responsive {
+    display: none;
+  }
+}
+
+.navbar-inverse {
+    background-color: rgba(255,255,255,.0);
+    border-color: rgba(255,255,255,.0);
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: #101010;
+    border-color: rgba(255,255,255,.0);
+}
+
+.bg {
+  background: #ffffff url("../images/bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  overflow:hidden;
+  position: relative;
+  height: 60%;
+
+}
+
+.main-nav {
+  padding-right: 100px;
+}
+
+.main-nav li a {
+  padding-left: 50px;
+  color: white !important;
+}
+
+.navbar-header a {
+  color: white !important;
+}
+
+.main-social li a {
+   color: white !important;
+ }
+
+ .hero {
+   margin-top: 15%;
+ }
+
+.hero h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+.hero p {
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+
+.cloudy {
+ right: 70px;
+ top: 50px;
+ position: relative;
+}
+.cloudy img {
+
+ max-width: 40%;
+}
+/* Features */
+.perfect-features {
+    margin-top: 4%;
+}
+
+.h1-center {
+  font-weight: bold;
+  color: #648cff;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+.slider {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.slider ul li{
+  list-style: none;
+}
+.slider img {
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.55);
+-moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.55);
+box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.55);
+}
+.screen-shot-right {
+    margin-top: 25%;
+}
+blockquote {
+  margin: 1.5em 0 1.5em;
+  padding: 0 1em 0 2.5em;
+  position:relative;
+  border-left: 0 !important;
+}
+blockquote:before
+ {
+  color: #648cff;
+  content: "\201C";
+  font-size: 5em;
+  position:absolute;
+  left:5px;
+  top: 0.3em;
+  line-height: 0.1em;
+}
+
+blockquote:after
+ {
+   color: #648cff;
+  content: "\201D";
+  font-size: 5em;
+  position:absolute;
+  right:3px;
+  top:70px;
+  line-height: 0.1em;
+
+}
+footer {
+    background: #353854;
+    color: white;
+}
+
+footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer li a {
+    color: white;
+}
+
+.footerh1 {
+    color: #fc6a42;
+}
+.footerh1 span {
+    color: #648cff;
+}
+.main-social li a {
+    float: right;
+}
+
+.download-app {
+    color: white;
+    background: #648cff;
+}
+.download-container {
+    margin-top: 10%;
+}
+
+.download-app {
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+}
+.phone {
+  position: absolute;
+  left: 400px;
+  width: 40%;
+}
